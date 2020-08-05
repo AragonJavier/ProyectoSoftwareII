@@ -11,8 +11,8 @@
 
 <body>
     <form action="login.php" method="post" >
+        <h1>Iniciar Sesion</h1>
         <div id="form" class="form-group">
-            <h1>Iniciar Session</h1>
                 <label for="">Usuario</label>
                 <input class="form-control" type="text" name="usuario" id=" usuario" placeholder="Usuario">
             </div>
