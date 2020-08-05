@@ -14,12 +14,12 @@
     </header>
     <nav class="main_nav">
         <ol class="main_nav__item">
-            <li ><a class="main_nav__link" href="#admon.html">Regisrar Estudiante</a></li>
-            <li ><a class="main_nav__link" href="IngresarCalificaciones.html">Inngresar Calificaciones<a></li>
-            <li ><a class="main_nav__link" href="GestionarCobros.html">Gestionar Cobros</a></li>
-            <li ><a class="main_nav__link" href="Docentes.html">Docentes</a></li>
-            <li ><a class="main_nav__link" href="Contabilidad.html">Contabilidad</a></li>
-            <li ><a class="main_nav__link" href="Mantenimiento.html">Mantenimiento</a></li>
+            <li ><a class="main_nav__link" href="#admon.php">Regisrar Estudiante</a></li>
+            <li ><a class="main_nav__link" href="IngresarCalificaciones.php">Inngresar Calificaciones<a></li>
+            <li ><a class="main_nav__link" href="GestionarCobros.php">Gestionar Cobros</a></li>
+            <li ><a class="main_nav__link" href="Docentes.php">Docentes</a></li>
+            <li ><a class="main_nav__link" href="Contabilidad.php">Contabilidad</a></li>
+            <li ><a class="main_nav__link" href="Mantenimiento.php">Mantenimiento</a></li>
         </ol>
     </nav>
 
