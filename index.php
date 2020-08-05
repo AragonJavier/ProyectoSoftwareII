@@ -11,7 +11,7 @@
 
 <body>
     <form action="login.php" method="post" >
-        <h1>Iniciar Sesion</h1>
+        <h1>Iniciar Sesión</h1>
         <div id="form" class="form-group">
                 <label for="">Usuario</label>
                 <input class="form-control" type="text" name="usuario" id=" usuario" placeholder="Usuario">
