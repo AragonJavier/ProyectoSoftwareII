@@ -28,9 +28,9 @@
         </nav>
     </div>
 
-    <form action="RegEstudiante.php" method="post" class="frm_registrar container card-header">
+    <form action="RegEstudiante.php" method="post" class="frm_registrar container card-header form-inline">
         <h1>Información del Estudiante</h1>
-        <div class="frm_main form-group">
+        <div class="frm_main form-group mb-2" >
             <label for="">Nombre completo</label>
             <input type="text" name="nombre" id="nombre">
             <label for="">Apellido Partenal</label>
