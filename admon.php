@@ -97,10 +97,7 @@
                 <option value="3">11avo Grado</option>
             </select>
         </div>
-    </form>
-
-    <form class=" container card-header frm_registrar " action="">
-        <h1 class="title_frm">Información del Padre</h1>
+        <h1 class="title_father">Información del Padre</h1>
         <div class="form-group">
             <label for="">Nombre completo</label>
             <input type="text" name="nombre" id="nombre">
@@ -134,9 +131,9 @@
         <div class="btn_save form-group">
             <input class="btn btn-primary" type="submit" value="guardar">
             <input class="btn btn-info" type="submit" value="imprimir">
-
         </div>
     </form>
+
 </body>
 
 </html>
