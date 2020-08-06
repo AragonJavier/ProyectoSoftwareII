@@ -61,8 +61,10 @@ h3 {
   font-size: 14px;
 }
 .main_nav > nav {
-  border: 1ps solid red;
-  border-bottom: 2px solid var(--bg-primary-color);
+  border-bottom: 1px solid var(--bg-primary-color);
+  position: static;
+  z-index: 10;
+  top: 0;
 }
 .main_nav__item {
   width: 100%;
@@ -90,4 +92,9 @@ h3 {
 }
 #edad {
   width: 5em;
+}
+.btn_save {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }

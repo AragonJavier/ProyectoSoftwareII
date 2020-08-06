@@ -122,7 +122,7 @@
             </select>
             <label for="">Fecha de Nacimiento</label>
             <input type="date" name="fecha" id="fecha">
-            <label for="">No de Identidad</label>
+            <label for="">Nº de Identidad</label>
             <input type="text" name="" id="">
         </div>
         <div>
@@ -131,8 +131,11 @@
             <label for="">Dirrecion</label>
             <input type="text" name="" id="">
             </div>
-            <input class="btn btn-primary" type="submit" value="guardar">
-            <input  class="btn btn-info"type="submit" value="imprimir">
+            <div btn_save>
+                <input class="btn btn-primary" type="submit" value="guardar">
+                <input  class="btn btn-info"type="submit" value="imprimir">
+
+            </div>
     </form>
 </body>
 
