@@ -82,14 +82,14 @@
         </div>
         <div class="form-group">
             <label for="">Cursos</label>
-            <select name="" id="" class="custom-select" >
+            <select name="" id="" class="custom-select">
                 <option value="1">Ciclo Común</option>
                 <option value="2">BTP Computación</option>
                 <option value="3">BTP Administración</option>
                 <option value="4">BTP Finanza</option>
             </select>
             <label for="">Grado</label>
-            <select name="" id=""  class="custom-select">
+            <select name="" id="" class="custom-select">
                 <option value="1"> 7mo Grado</option>
                 <option value="2">8avo Grado</option>
                 <option value="3">9no Grado</option>
@@ -100,11 +100,11 @@
         <h1 class="title_father">Información del Padre</h1>
         <div class="form-group">
             <label for="">Nombre completo</label>
-            <input  class="form-control" type="text" name="nombre" id="nombre">
+            <input class="form-control" type="text" name="nombre" id="nombre">
             <label for="">Apellido Partenal</label>
             <input class="form-control" type="text" name="apellido" id="apellido">
             <label for="">Apellido Martenal</label>
-            <input  class="form-control"type="text" name="apellido" id="apellido">
+            <input class="form-control" type="text" name="apellido" id="apellido">
         </div>
         <div class="form-group">
             <label for="">Edad</label>
@@ -126,7 +126,7 @@
             <label for="">Numero Telefonico</label>
             <input class="form-control" type="tel" name="" id="tel">
             <label for="">Dirrecion</label>
-            <textarea  class="form-control" name="address" id="address" cols="30" rows=""></textarea>
+            <textarea class="form-control" name="address" id="address" cols="30" rows=""></textarea>
         </div>
         <div class="btn_save form-group">
             <input class="btn btn-primary" type="submit" value="guardar">
@@ -135,5 +135,4 @@
     </form>
 
 </body>
-
 </html>
