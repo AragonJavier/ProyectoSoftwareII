@@ -63,7 +63,7 @@ h3 {
 .main_nav > nav {
   border-bottom: 1px solid var(--bg-primary-color);
   position: static;
-  z-index: 10;
+  z-index: 100;
   top: 0;
 }
 .main_nav__item {

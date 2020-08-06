@@ -30,7 +30,7 @@
 
     <form action="RegEstudiante.php" method="post" class="frm_registrar container card-header">
         <h1>Información del Estudiante</h1>
-        <div class="frm_main">
+        <div class="frm_main form-group">
             <label for="">Nombre completo</label>
             <input type="text" name="nombre" id="nombre">
             <label for="">Apellido Partenal</label>
