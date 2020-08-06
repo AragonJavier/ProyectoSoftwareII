@@ -19,7 +19,7 @@
         <nav>
             <ol class="main_nav__item">
                 <li><a class="main_nav__link" href="admon.php">Regisrar Estudiante</a></li>
-                <li><a class="main_nav__link" href="IngresarCalificaciones.php">Inngresar Calificaciones<a></li>
+                <li><a class="main_nav__link" href="calificaciones.php">Ingresar Calificaciones<a></li>
                 <li><a class="main_nav__link" href="GestionarCobros.php">Gestionar Cobros</a></li>
                 <li><a class="main_nav__link" href="Docentes.php">Docentes</a></li>
                 <li><a class="main_nav__link" href="Contabilidad.php">Contabilidad</a></li>
@@ -28,19 +28,19 @@
         </nav>
     </div>
 
-    <form action="RegEstudiante.php" method="post" class="frm_registrar container card-header ">
-        <h1 class="title_frm">Información del Estudiante</h1>
+    <form action="admon.php" method="post" class="frm_registrar container card-header form-inline ">
+        <h1 class="title_father">Información del Estudiante</h1>
         <div class="form-group mb-2">
             <label for="">Nombre completo</label>
-            <input type="text" name="nombre" id="nombre">
+            <input class="form-control" type="text" name="nombre" id="nombre">
             <label for="">Apellido Partenal</label>
-            <input type="text" name="apellido" id="apellido">
+            <input class="form-control" type="text" name="apellido" id="apellido">
             <label for="">Apellido Martenal</label>
-            <input type="text" name="apellido" id="apellido">
+            <input class="form-control" type="text" name="apellido" id="apellido">
         </div>
         <div class="form-group">
             <label for="">Edad</label>
-            <select name="" id="edad">
+            <select name="" id="edad" class="custom-select">
                 <?php for ($i=1; $i<=100; $i++) { ?>
                 <option value="<?php echo $i;?>">
                     <?php echo $i; ?>
@@ -50,9 +50,9 @@
             ?>
             </select>
             <label for="">Fecha de Nacimiento</label>
-            <input type="date" name="fecha" id="fecha">
+            <input class="form-control" type="date" name="fecha" id="fecha">
             <label for="">Departamento</label>
-            <select name="" id="edad">
+            <select name="" id="edad" class="custom-select">
                 <?php
                 for ($i=1; $i<=100; $i++)  {?>
                 <option value="<?php echo $i;?>"><?php echo $i;?></option>
@@ -63,7 +63,7 @@
         </div>
         <div class="form-group">
             <label for="">Ciudad</label>
-            <select name="" id="edad">
+            <select name="" id="edad" class="custom-select">
                 <?php for ($i=1; $i<=100; $i++) { ?>
                 <option value="<?php echo $i;?>">
                     <?php echo $i; ?>
@@ -73,23 +73,23 @@
             ?>
             </select>
             <label for="">Tipo de Ingreso</label>
-            <select name="" id="">
+            <select name="" id="" class="custom-select">
                 <option value="1"> Primer ingreso</option>
                 <option value="2">Reingreso</option>
             </select>
             <label for="">Fecha de Ingreso</label>
-            <input type="date" name="fecha" id="fecha">
+            <input class="form-control" type="date" name="fecha" id="fecha">
         </div>
         <div class="form-group">
             <label for="">Cursos</label>
-            <select name="" id="">
+            <select name="" id="" class="custom-select" >
                 <option value="1">Ciclo Común</option>
                 <option value="2">BTP Computación</option>
                 <option value="3">BTP Administración</option>
                 <option value="4">BTP Finanza</option>
             </select>
             <label for="">Grado</label>
-            <select name="" id="">
+            <select name="" id=""  class="custom-select">
                 <option value="1"> 7mo Grado</option>
                 <option value="2">8avo Grado</option>
                 <option value="3">9no Grado</option>
@@ -100,15 +100,15 @@
         <h1 class="title_father">Información del Padre</h1>
         <div class="form-group">
             <label for="">Nombre completo</label>
-            <input type="text" name="nombre" id="nombre">
+            <input  class="form-control" type="text" name="nombre" id="nombre">
             <label for="">Apellido Partenal</label>
-            <input type="text" name="apellido" id="apellido">
+            <input class="form-control" type="text" name="apellido" id="apellido">
             <label for="">Apellido Martenal</label>
-            <input type="text" name="apellido" id="apellido">
+            <input  class="form-control"type="text" name="apellido" id="apellido">
         </div>
         <div class="form-group">
             <label for="">Edad</label>
-            <select name="" id="edad">
+            <select name="" id="edad" class="custom-select">
                 <?php for ($i=1; $i<=100; $i++) { ?>
                 <option value="<?php echo $i;?>">
                     <?php echo $i; ?>
@@ -118,15 +118,15 @@
             ?>
             </select>
             <label for="">Fecha de Nacimiento</label>
-            <input type="date" name="fecha" id="fecha">
+            <input class="form-control" type="date" name="fecha" id="fecha">
             <label for="">Nº de Identidad</label>
-            <input type="text" name="" id="">
+            <input class="form-control" type="text" name="" id="">
         </div>
         <div class="form-group">
             <label for="">Numero Telefonico</label>
-            <input type="tel" name="" id="tel">
+            <input class="form-control" type="tel" name="" id="tel">
             <label for="">Dirrecion</label>
-            <textarea name="address" id="address" cols="30" rows=""></textarea>
+            <textarea  class="form-control" name="address" id="address" cols="30" rows=""></textarea>
         </div>
         <div class="btn_save form-group">
             <input class="btn btn-primary" type="submit" value="guardar">
