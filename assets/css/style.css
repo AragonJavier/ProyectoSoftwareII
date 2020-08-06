@@ -84,12 +84,12 @@ h3 {
   text-decoration: none;
   color: var(--text-second-color);
 }
-.frm_registrar > div {
+.form-group {
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  margin-top: 5em;
+  margin-top: 2em;
 }
 #edad {
   width: 5em;
