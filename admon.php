@@ -29,7 +29,7 @@
     </div>
 
     <form action="RegEstudiante.php" method="post" class="frm_registrar container card-header form-inline">
-        <h1>Información del Estudiante</h1>
+        <h1 class="title_admon">Información del Estudiante</h1>
         <div class="frm_main form-group mb-2" >
             <label for="">Nombre completo</label>
             <input type="text" name="nombre" id="nombre">
@@ -100,7 +100,7 @@
     </form>
 
     <form class=" container card-header frm_registrar " action="" >
-        <h1>Información del Padre</h1>
+        <h1 class="frm_registrar__tilte">Información del Padre</h1>
         <div class="frm_main">
             <label for="">Nombre completo</label>
             <input type="text" name="nombre" id="nombre">
@@ -127,9 +127,9 @@
         </div>
         <div>
             <label for="">Numero Telefonico</label>
-            <input type="tel" name="" id="">
+            <input type="tel" name="" id="tel">
             <label for="">Dirrecion</label>
-            <input type="text" name="" id="">
+             <textarea name="address" id="address" cols="30" rows="" ></textarea>
             </div>
             <div btn_save>
                 <input class="btn btn-primary" type="submit" value="guardar">
