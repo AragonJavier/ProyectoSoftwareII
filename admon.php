@@ -100,7 +100,7 @@
     </form>
 
     <form class=" container card-header frm_registrar " action="" >
-        <h1 class="frm_registrar__tilte">Información del Padre</h1>
+        <h1 class="frm_registrar__tiltle">Información del Padre</h1>
         <div class="frm_main">
             <label for="">Nombre completo</label>
             <input type="text" name="nombre" id="nombre">
