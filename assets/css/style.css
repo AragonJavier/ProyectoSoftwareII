@@ -89,7 +89,7 @@ h3 {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  margin-top: 2em;
+  margin-top: 4em;
 }
 #edad {
   width: 5em;
