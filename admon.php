@@ -28,9 +28,9 @@
         </nav>
     </div>
 
-    <form action="RegEstudiante.php" method="post" class="frm_registrar container card-header form-inline">
-        <h1 class="title_admon">Información del Estudiante</h1>
-        <div class="frm_main form-group mb-2" >
+    <form action="RegEstudiante.php" method="post" class="frm_registrar container card-header ">
+        <h1 class="title_frm">Información del Estudiante</h1>
+        <div class="form-group mb-2">
             <label for="">Nombre completo</label>
             <input type="text" name="nombre" id="nombre">
             <label for="">Apellido Partenal</label>
@@ -38,13 +38,13 @@
             <label for="">Apellido Martenal</label>
             <input type="text" name="apellido" id="apellido">
         </div>
-        <div>
+        <div class="form-group">
             <label for="">Edad</label>
             <select name="" id="edad">
                 <?php for ($i=1; $i<=100; $i++) { ?>
-                    <option value="<?php echo $i;?>">
-                        <?php echo $i; ?>
-                    </option>
+                <option value="<?php echo $i;?>">
+                    <?php echo $i; ?>
+                </option>
                 <?php
                 }
             ?>
@@ -61,26 +61,26 @@
             ?>
             </select>
         </div>
-        <div>
+        <div class="form-group">
             <label for="">Ciudad</label>
             <select name="" id="edad">
                 <?php for ($i=1; $i<=100; $i++) { ?>
-                    <option value="<?php echo $i;?>">
-                        <?php echo $i; ?>
-                    </option>
+                <option value="<?php echo $i;?>">
+                    <?php echo $i; ?>
+                </option>
                 <?php
                 }
             ?>
             </select>
             <label for="">Tipo de Ingreso</label>
-             <select name="" id="">
-                 <option value="1"> Primer ingreso</option>
-                 <option value="2">Reingreso</option>
-             </select>
+            <select name="" id="">
+                <option value="1"> Primer ingreso</option>
+                <option value="2">Reingreso</option>
+            </select>
             <label for="">Fecha de Ingreso</label>
             <input type="date" name="fecha" id="fecha">
         </div>
-        <div>
+        <div class="form-group">
             <label for="">Cursos</label>
             <select name="" id="">
                 <option value="1">Ciclo Común</option>
@@ -99,9 +99,9 @@
         </div>
     </form>
 
-    <form class=" container card-header frm_registrar " action="" >
-        <h1 class="frm_registrar__tiltle">Información del Padre</h1>
-        <div class="frm_main">
+    <form class=" container card-header frm_registrar " action="">
+        <h1 class="title_frm">Información del Padre</h1>
+        <div class="form-group">
             <label for="">Nombre completo</label>
             <input type="text" name="nombre" id="nombre">
             <label for="">Apellido Partenal</label>
@@ -109,13 +109,13 @@
             <label for="">Apellido Martenal</label>
             <input type="text" name="apellido" id="apellido">
         </div>
-        <div>
+        <div class="form-group">
             <label for="">Edad</label>
             <select name="" id="edad">
                 <?php for ($i=1; $i<=100; $i++) { ?>
-                    <option value="<?php echo $i;?>">
-                        <?php echo $i; ?>
-                    </option>
+                <option value="<?php echo $i;?>">
+                    <?php echo $i; ?>
+                </option>
                 <?php
                 }
             ?>
@@ -125,17 +125,17 @@
             <label for="">Nº de Identidad</label>
             <input type="text" name="" id="">
         </div>
-        <div>
+        <div class="form-group">
             <label for="">Numero Telefonico</label>
             <input type="tel" name="" id="tel">
             <label for="">Dirrecion</label>
-             <textarea name="address" id="address" cols="30" rows="" ></textarea>
-            </div>
-            <div btn_save>
-                <input class="btn btn-primary" type="submit" value="guardar">
-                <input  class="btn btn-info"type="submit" value="imprimir">
+            <textarea name="address" id="address" cols="30" rows=""></textarea>
+        </div>
+        <div class="btn_save form-group">
+            <input class="btn btn-primary" type="submit" value="guardar">
+            <input class="btn btn-info" type="submit" value="imprimir">
 
-            </div>
+        </div>
     </form>
 </body>
 

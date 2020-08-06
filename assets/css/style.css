@@ -11,6 +11,7 @@
 body {
   margin: 0px;
   padding: 0px;
+  top: 0;
   box-sizing: border-box;
 }
 
@@ -83,15 +84,12 @@ h3 {
   text-decoration: none;
   color: var(--text-second-color);
 }
-.frm_registrar {
-  width: 100%;
-}
 .frm_registrar > div {
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  margin-top: 3em;
+  margin-top: 5em;
 }
 #edad {
   width: 5em;
@@ -100,7 +98,4 @@ h3 {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-}
-.frm_registrar__title {
-  margin-left: 25%;
 }
